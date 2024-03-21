@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "135963728729",
+    "firebase_url": "https://proyectointegradojunio-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "proyectointegradojunio",
+    "storage_bucket": "proyectointegradojunio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135963728729:android:c4e133af19a98ef6988a48",
+        "android_client_info": {
+          "package_name": "com.example.proyectojunio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135963728729-c31lr46aqq8gf9e1hlobpds30titcvgs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW97zKuYP7aPp5o1bVYyI4iy-1-sBRSRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135963728729-c31lr46aqq8gf9e1hlobpds30titcvgs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
