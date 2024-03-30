@@ -1,5 +1,6 @@
 package com.example.proyectojunio
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -18,6 +19,18 @@ class OpcionesActivity : AppCompatActivity() {
         binding= ActivityOpcionesBinding.inflate(layoutInflater)
         setContentView(binding.root)
         auth=Firebase.auth
+
+        setListeners()
+    }
+
+    private fun setListeners() {
+        binding.btBiografias.setOnClickListener {
+            irBiografiasActivity()
+        }
+    }
+
+    private fun irBiografiasActivity(){
+        startActivity(Intent(this, BiografiasActivity::class.java))
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
