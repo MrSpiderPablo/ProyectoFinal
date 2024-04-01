@@ -46,7 +46,16 @@ object SuperheroesProvider {
                     "hasta que conoció al profesor Charles Xavier, un poderoso telépata que era líder de los X-Men," +
                     "un grupo mutante que lucha por la paz entre mutantes y humanos. Desde entonces, Logan se unió a ellos" +
                     "y se convirtió en el superhéroe conocido como Lobezno",
-        "The Incredible Hulk #180(octubre de 1974)")
+        "The Incredible Hulk #180(octubre de 1974)"),
+
+        Superheroes("Caballero Luna", "Marc Spector, Steven Grant, Jake Lockley", R.drawable.moon_knight,
+            "Marc Spector es un mercenario que trabaja para el mejor postor." +
+                    "Al rebelarse contra Bushman, su antiguo jefe y socio, Marc es asesinado." +
+                    "Sin embargo, es resucitado y convertido en el avatar de la venganza del dios egipcio Kohnsu." +
+                    "Desde ese momento, Marc usará todos sus concimientos de la guerra y la protección de Konshu" +
+                    "para luchar contra el crimen. Sin embargo, también debe lidiar con su trastorno de identidad disociativo," +
+                    "el cuál le hace adoptar varias personalidades como el millonario Steven Grant o el taxista Jake Lockley.",
+                    "Werewolf by Night #32(agosto de 1975)")
 
     )
 
