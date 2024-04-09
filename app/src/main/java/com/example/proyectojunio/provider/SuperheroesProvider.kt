@@ -6,9 +6,14 @@ import com.example.proyectojunio.models.Superheroes
 object SuperheroesProvider {
 
     val misSuperheroes = arrayListOf<Superheroes>(
-        Superheroes("Daredevil", "Matt Murdock", R.drawable.daredevil, "Matt Murdock creció en el peligroso barrio de Hell's Kitchen." +
-                "Cuando al intentar salvar a un anciano de ser atropellado, unos tanques con productos qúimicos se le vuelcan en los ojos, dejando completamente ciego pero agudizando sus demás sentidos." +
-                "Cuando su padre es asesinado al negarse a perder en un combate de boxeo, Matt decide emprender un camino contra la injusticia y la corrupción, convirtiéndose en el diablo guardián de Hell's Kitchen: Daredevil",
+        Superheroes("Daredevil", "Matt Murdock", R.drawable.daredevil,
+            "Matt Murdock creció en el peligroso barrio de Hell's Kitchen." +
+                "Cuando al intentar salvar a un anciano de ser atropellado," +
+                " unos tanques con productos qúimicos se le vuelcan en los ojos, dejandolo" +
+                " completamente ciego pero agudizando sus demás sentidos." +
+                "Cuando su padre es asesinado al negarse a perder en un combate de boxeo," +
+                " Matt decide emprender un camino contra la injusticia y la corrupción," +
+                " convirtiéndose en el diablo guardián de Hell's Kitchen: Daredevil",
                 "Daredevil #1(abril de 1964)"),
 
         Superheroes("Superman", "Clark Kent, KAL-EL", R.drawable.superman, "Enviado desde un planeta al borde de la destrucción y criado por una familia de rancheros," +
@@ -55,7 +60,20 @@ object SuperheroesProvider {
                     "Desde ese momento, Marc usará todos sus concimientos de la guerra y la protección de Konshu" +
                     "para luchar contra el crimen. Sin embargo, también debe lidiar con su trastorno de identidad disociativo," +
                     "el cuál le hace adoptar varias personalidades como el millonario Steven Grant o el taxista Jake Lockley.",
-                    "Werewolf by Night #32(agosto de 1975)")
+                    "Werewolf by Night #32(agosto de 1975)"),
+
+        Superheroes("Wonder Woman", "Princesa Diana", R.drawable.wonder_woman,
+            "Themyscira es una isla habitada por mujeres bendecidas por los dioses." +
+                    "Estas mujeres son conocidas como las amazonas." +
+                    "Un día, Hipólita, reina de las amazonas, esculpió una muñeca de barro para pedirle a los dioses" +
+                    "que le dieran vida. Ellos aceptaron y conviertieron a la muñeca en una niña llamada Diana," +
+                    "quien crecería como una amazona y guardiana de la paz. Un día, los dioses deciden " +
+                    "que es momento de enviar a la mejor de las amazonas como promotora de la paz al mundo del hombre," +
+                    "por lo que organizan una competencia la cual gana Diana. Como recompensa, se le entregan varios" +
+                    "objetos como un traje especial, unos brazaletes indestructibles y un objeto conocido como" +
+                    "el Lazo de la Verdad. Diana, ahora conocida como Wonder Woman, se une junto a otros héroes" +
+                    "para formar la Liga de la Justicia.",
+                    "Wonder Woman Vol 1 #1(agosto de 1942)")
 
     )
 

@@ -27,10 +27,18 @@ class OpcionesActivity : AppCompatActivity() {
         binding.btBiografias.setOnClickListener {
             irBiografiasActivity()
         }
+
+        binding.btChat.setOnClickListener {
+            irChatActivity()
+        }
     }
 
     private fun irBiografiasActivity(){
         startActivity(Intent(this, BiografiasActivity::class.java))
+    }
+
+    private fun irChatActivity(){
+        startActivity(Intent(this, ChatActivity::class.java))
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
