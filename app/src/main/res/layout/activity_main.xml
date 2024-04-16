@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/aquaman"
+    android:background="@drawable/superheroes"
     android:foregroundGravity="bottom"
     tools:context=".MainActivity">
 
@@ -77,6 +77,7 @@
         android:layout_marginTop="35dp"
         android:fontFamily="@font/acme"
         android:text="IT`S SUPERHERO TIME"
+        android:textColor="@android:color/holo_orange_light"
         android:textSize="24sp"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"

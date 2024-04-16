@@ -9,9 +9,9 @@
     app:cardUseCompatPadding="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#F9A825"
         android:padding="8dp">
 
         <TextView

@@ -2,6 +2,8 @@ package com.example.proyectojunio
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.proyectojunio.adapters.MensajesAdapter
 import com.example.proyectojunio.databinding.ActivityChatBinding
@@ -89,5 +91,25 @@ class ChatActivity : AppCompatActivity() {
     private fun initDb() {
         database= FirebaseDatabase.getInstance("https://proyectointegradojunio-default-rtdb.europe-west1.firebasedatabase.app/")
         reference=database.getReference("mensajesAplicación")
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+
+        menuInflater.inflate(R.menu.menu_opciones, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+
+        when(item.itemId){
+            R.id.item_cerrar->{
+                auth.signOut()
+                finish()
+            }
+            R.id.item_salir->{
+                finishAffinity()
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 }

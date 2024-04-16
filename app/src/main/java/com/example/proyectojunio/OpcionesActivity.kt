@@ -31,6 +31,11 @@ class OpcionesActivity : AppCompatActivity() {
         binding.btChat.setOnClickListener {
             irChatActivity()
         }
+
+        binding.btCerrar.setOnClickListener {
+            auth.signOut()
+            finish()
+        }
     }
 
     private fun irBiografiasActivity(){

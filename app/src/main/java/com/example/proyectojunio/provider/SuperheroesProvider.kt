@@ -73,7 +73,38 @@ object SuperheroesProvider {
                     "objetos como un traje especial, unos brazaletes indestructibles y un objeto conocido como" +
                     "el Lazo de la Verdad. Diana, ahora conocida como Wonder Woman, se une junto a otros héroes" +
                     "para formar la Liga de la Justicia.",
-                    "Wonder Woman Vol 1 #1(agosto de 1942)")
+                    "Wonder Woman Vol 1 #1(agosto de 1942)"),
+
+        Superheroes("Aquaman", "Arthur Curry", R.drawable.aquaman,
+            "Mitad humano y mitad atlante, Aquaman es el rey de Atlantis y protector de los siete mares." +
+                    "Posee habilidades como superfuerza, supervelocidad, piel impenetrable y la capacidad de comunicarse con la flora marina." +
+                    "Es uno de los miembros más venerados de la Liga de la Justicia.",
+            "More Fun Comics #73(noviembre de 1941)"),
+
+        Superheroes("Capitán América", "Steve Rogers", R.drawable.capitan_america,
+            "Alistándose en el ejército a pesar de su débil condición física," +
+                    "Steve Rogers recibe el suero del supersoldado, el cuál le dará fuerza y agilidad sobrehumana." +
+                    "Combatiendo a los nazis en la Segunda Guerra Mundial, en una de sus misiones " +
+                    "Steve resultaría caído en combate y congelado en estado criogénico." +
+                    "Al despertar 70 años después, descubre que el mundo ha cambiado.",
+            "Captain America Comics #1(marzo de 1941)"),
+
+        Superheroes("Thor", "Odinson, Donald Blake", R.drawable.thor,
+            "Thor, hijo de Odín, " +
+                    "futuro rey del reino de Aasgard, " +
+                    "protector de los nueve reinos." +
+                    "Miembro honorable de los Vengadores." +
+                    "El Dios del Trueno y su martillo Mjolnir son el temor de sus enemigos.",
+            "Journey Into Mystery #85(agosto de 1962)"),
+
+        Superheroes("Los Cuatro Fantásticos", "Reed Richards, Sue Storm, Johny Storm, Ben Grim",
+            R.drawable.cuatro_fantasticos, "La primera gran familia de Marvel." +
+                    "Tras ser alcanzados por una tormenta cósmica, " +
+                    "Reed Richards adquiere el poder de estirar cualquier parte de su cuerpo, " +
+                    "Sue Storm obtiene la capacidad de hacerse invisible," +
+                    "Johny Storm puede prender su cuerpo de fuego " +
+                    "y Ben Grim se transforma en una grotesca criatura rocosa. " +
+                    "Juntos son los Cuatro Fantásticos", "The Fantastic Four #1(noviembre de 1961)")
 
     )
 
