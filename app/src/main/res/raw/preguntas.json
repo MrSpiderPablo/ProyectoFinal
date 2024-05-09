@@ -1,0 +1,122 @@
+{
+    "arrayPreguntas":[{
+    "id_pregunta": 1,
+    "Pregunta": "¿Cuál es el planeta de origen de Superman?",
+    "respuestaCorrecta": "Krypton",
+    "respuestaIncorrecta1": "Titán",
+    "respuestaIncorrecta2": "La Tierra"
+    },
+
+    {
+      "id_pregunta": 2,
+      "Pregunta": "¿Quién acuñó originalmente la frase: Un gran poder conlleva una gran responsabilidad?",
+      "respuestaCorrecta": "Stan Lee",
+      "respuestaIncorrecta1": "Tío Ben",
+      "respuestaIncorrecta2": "Steve Ditko"
+    },
+
+    {
+      "id_pregunta": 3,
+      "Pregunta": "¿De qué están forrados los huesos de Lobezno?",
+      "respuestaCorrecta": "Adamantium",
+      "respuestaIncorrecta1": "Vibranium",
+      "respuestaIncorrecta2": "Metal X"
+    },
+
+    {
+      "id_pregunta": 4,
+      "Pregunta": "¿De qué cómic toma inspiración la película Logan?",
+      "respuestaCorrecta": "Lobezno: El Viejo Logan",
+      "respuestaIncorrecta1": "Lobezno: Enemigo del Estado",
+      "respuestaIncorrecta2": "Lobezno: Arma X"
+    },
+
+    {
+      "id_pregunta": 5,
+      "Pregunta": "¿Quién es el némesis de Spiderman?",
+      "respuestaCorrecta": "Duende Verde",
+      "respuestaIncorrecta1": "Doctor Octopus",
+      "respuestaIncorrecta2": "Venom"
+    },
+
+    {
+      "id_pregunta": 6,
+      "Pregunta": "Aquaman es mitad humano y mitad...",
+      "respuestaCorrecta": "atlante",
+      "respuestaIncorrecta1": "mutante",
+      "respuestaIncorrecta2": "kryptoniano"
+    },
+
+    {
+      "id_pregunta": 7,
+      "Pregunta": "¿Qué personaje de la película El Caballero Oscuro dice esta frase?: O mueres como un héroe o vives lo suficiente para verte convertido en un villano",
+      "respuestaCorrecta": "El fiscal del distrito Harvey Dent",
+      "respuestaIncorrecta1": "Batman/Bruce Wayne",
+      "respuestaIncorrecta2": "El Joker"
+    },
+
+    {
+      "id_pregunta": 8,
+      "Pregunta": "En la película El Hombre de acero, ¿qué significa la S en el traje de Superman",
+      "respuestaCorrecta": "Esperanza",
+      "respuestaIncorrecta1": "Avaricia",
+      "respuestaIncorrecta2": "Miedo"
+    },
+
+    {
+      "id_pregunta": 9,
+      "Pregunta": "¿Qué villano le partió la espalda a Batman en los cómics?",
+      "respuestaCorrecta": "Bane",
+      "respuestaIncorrecta1": "Deathstroke",
+      "respuestaIncorrecta2": "Joker"
+    },
+
+    {
+      "id_pregunta": 10,
+      "Pregunta": "En el universo creado por el evento Flashpoint, ¿qué personaje es el Joker?",
+      "respuestaCorrecta": "Martha Wayne",
+      "respuestaIncorrecta1": "Selina Kyle",
+      "respuestaIncorrecta2": "James Gordon"
+    },
+
+    {
+      "id_pregunta": 11,
+      "Pregunta": "¿Quién mató a Superman por primera vez en los cómics?",
+      "respuestaCorrecta": "Doomsday",
+      "respuestaIncorrecta1": "General Zod",
+      "respuestaIncorrecta2": "Lex Luthor"
+    },
+
+    {
+      "id_pregunta": 12,
+      "Pregunta": "¿A qué planeta fue enviado Hulk en el cómic Planeta Hulk?",
+      "respuestaCorrecta": "Sakaar",
+      "respuestaIncorrecta1": "Xandar",
+      "respuestaIncorrecta2": "La Contratierra"
+    },
+
+    {
+      "id_pregunta": 13,
+      "Pregunta": "¿Quién es la madre del mutante Rondador Nocturno?",
+      "respuestaCorrecta": "Mística",
+      "respuestaIncorrecta1": "Emma Frost",
+      "respuestaIncorrecta2": "Pícara"
+    },
+
+    {
+      "id_pregunta": 14,
+      "Pregunta": "El green lantern Hal Jordan pertenece al sector...",
+      "respuestaCorrecta": "2814",
+      "respuestaIncorrecta1": "3456",
+      "respuestaIncorrecta2": "1367"
+    },
+
+    {
+      "id_pregunta": 15,
+      "Pregunta": "¿Cómo se llama el hijo de Batman en los cómics?",
+      "respuestaCorrecta": "Damian Wayne",
+      "respuestaIncorrecta1": "John Wayne",
+      "respuestaIncorrecta2": "Anthony Wayne"
+    }
+  ]
+}

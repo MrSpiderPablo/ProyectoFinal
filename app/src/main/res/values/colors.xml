@@ -2,6 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="propietario">#C62828</color>
-    <color name="usuarios">#1565C0</color>
+    <color name="propietario">#F48FB1</color>
+    <color name="usuarios">#90CAF9</color>
 </resources>

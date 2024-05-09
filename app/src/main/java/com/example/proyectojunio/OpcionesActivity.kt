@@ -21,6 +21,11 @@ class OpcionesActivity : AppCompatActivity() {
         auth=Firebase.auth
 
         setListeners()
+        pintarEmail()
+    }
+
+    private fun pintarEmail() {
+        binding.tvEmail2.text=auth.currentUser?.email.toString()
     }
 
     private fun setListeners() {
@@ -36,6 +41,10 @@ class OpcionesActivity : AppCompatActivity() {
             auth.signOut()
             finish()
         }
+
+        binding.btJugar.setOnClickListener {
+            irJuegoActivity()
+        }
     }
 
     private fun irBiografiasActivity(){
@@ -44,6 +53,10 @@ class OpcionesActivity : AppCompatActivity() {
 
     private fun irChatActivity(){
         startActivity(Intent(this, ChatActivity::class.java))
+    }
+
+    private fun irJuegoActivity(){
+        startActivity(Intent(this, JuegoActivity::class.java))
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
