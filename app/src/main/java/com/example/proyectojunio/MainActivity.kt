@@ -38,6 +38,14 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    override fun onStart() {
+        super.onStart()
+        val usuario = auth.currentUser
+        if (usuario!=null){
+            irOpcionesActivity()
+        }
+    }
+
     private fun loginBasico(){
         auth.signInWithEmailAndPassword(email, pass)
             .addOnCompleteListener {
