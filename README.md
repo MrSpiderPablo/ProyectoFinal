@@ -5,3 +5,9 @@ Esta aplicación consta de tres secciones:
   * Un juego/cuestionario de preguntas y respuestas.
   * Una sección con biografías de los superhéroes más famosos.
   * Una sección para que los usuarios puedan chatear entre ellos.
+
+# Programas requeridos
+ * Android Studio 2022.3.1 (marzo de 2022)
+   https://developer.android.com/studio?hl=es-419
+ * Firebase (donde creamos la base de datos del proyecto)
+ * Github (para realizar el control de versiones)
