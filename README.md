@@ -11,3 +11,14 @@ Esta aplicación consta de tres secciones:
    https://developer.android.com/studio?hl=es-419
  * Firebase (donde creamos la base de datos del proyecto)
  * Github (para realizar el control de versiones)
+
+# Requisitos funcionales
+ * Si el usuario es nuevo en la aplicación, debe crear una cuenta y registrarse.
+ * Una vez registrado, si quiere volver a entrar, debe iniciar sesisón con su cuenta.
+ * Tras registrarse o iniciar sesión aparece el menú de opciones, las cuales están representadas mediante botones.
+
+# Requisitos no funcionales
+ * Al registrar o iniciar sesión, los datos de los usuarios se comparan y se guardan en la base de datos de Firebase.
+ * Se mostrará el correo electrónico del usuario en el menú de opciones.
+ * A cada opción se podrá acceder pulsando el botón correspondiente.
+ * El contenido de cada opción estará representado de manera clara y concisa de acuerdo con las normas de usabilidad.
