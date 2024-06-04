@@ -3,6 +3,8 @@ package com.example.proyectojunio
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.proyectojunio.adapters.SuperheroesAdapter
 import com.example.proyectojunio.databinding.ActivityBiografiasBinding
@@ -33,5 +35,20 @@ class BiografiasActivity : AppCompatActivity() {
             putExtra("SUPERHÉROE", superheroes)
         }
         startActivity(i)
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_volver, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+
+        when(item.itemId){
+            R.id.item_volver->{
+                finish()
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 }

@@ -95,20 +95,17 @@ class ChatActivity : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
 
-        menuInflater.inflate(R.menu.menu_opciones, menu)
+        menuInflater.inflate(R.menu.menu_volver, menu)
         return super.onCreateOptionsMenu(menu)
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
 
         when(item.itemId){
-            R.id.item_cerrar->{
-                auth.signOut()
+            R.id.item_volver->{
                 finish()
             }
-            R.id.item_salir->{
-                finishAffinity()
-            }
+
         }
         return super.onOptionsItemSelected(item)
     }
